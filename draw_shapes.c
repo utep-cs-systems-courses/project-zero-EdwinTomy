@@ -26,3 +26,12 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+// Prints an arrow of specified height whose left edge starts at col leftCol.
+void print_arrow(int leftCol, int size)
+{
+  print_triangle(3, 3);
+  print_square(5, 3);
+}
+
+
+	
